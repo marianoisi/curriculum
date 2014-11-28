@@ -50,12 +50,19 @@ li{
    background-repeat: repeat-y;
    background-position: center;
    height: 100%;
+   margin-right: 0px;
+}
+
+.lateral>img{
+   padding-left: 2px;
+   width: 90%;
 }
 
 .content{
    font-size: 20px;
    clear: both;
    overflow: auto;
+   margin-left: 0px;
 }
 
 .content>img{
