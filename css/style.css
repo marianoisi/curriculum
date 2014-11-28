@@ -1,0 +1,63 @@
+* {
+   margin: 0 auto; 
+}
+
+body {
+   background: #fff url(../img/background.jpg) fixed;
+   overflow: auto;
+}
+
+li{
+   list-style-type: square;
+}
+
+.container {
+   min-height: 100%;
+   width:100%; 
+   font-size: 0;
+   background: rgb(0, 0, 0) transparent;
+}
+
+.left, .right {
+   display: inline-block; 
+   *display: inline; 
+   zoom: 1; 
+   vertical-align: top; 
+   font-weight: 400;
+   line-height: 25px;
+}
+
+.left {
+   width: 35%; 
+}
+
+.right {
+   width: 65%;
+   height: 100%; 
+}
+
+.lateral, .content{
+   background: rgb(0, 0, 0) transparent;
+   font-weight: 400;
+   color: #ffffff;
+   line-height: 25px;
+}
+
+.lateral{
+   font-size: 16px;
+   text-align: center;
+   background-image: url("../img/blackcolumn.jpg");
+   background-repeat: repeat-y;
+   background-position: center;
+   height: 100%;
+}
+
+.content{
+   font-size: 20px;
+   clear: both;
+   overflow: auto;
+}
+
+.content>img{
+   margin-top: 20px;
+}
